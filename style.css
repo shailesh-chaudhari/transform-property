@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+/* default div actual position not using any transform property  */
+div {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background-color: lightcoral;
+}
+
+/* using translate function for move X direction left and right transform:translateX(500px); property div move to right 500px for move left use transform:translateX(-300px) property*/
+.div1 {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background-color: lightcoral;
+    transform: translateX(500px);
+}
+
+/* using translate function for move Y direction top and bottom transform:translateY(500px); property div move to bottom 500px for move top use transform:translateY(-300px) property*/
+.div2 {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background-color: lightcoral;
+    transform: translateY(50px);
+}
+
+/* using translate function for move X and Y direction at a time use transform:translate(X , Y) x is for right left and y for top and bottom*/
+.div3 {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background-color: lightcoral;
+    transform: translate(130px, 50px);
+}
+
+/* using rotate function rotate div for x y and z axis for transform:rotateX(180deg) and similarly same another y and z  */
+.div4 {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background-color: lightcoral;
+    transform: rotate(180deg);
+}
+
+/* using scale property transform:scaleX(1.5); use for stretch and shrink along x y and z direction */
+.div5 {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background-color: lightcoral;
+    transform: scaleX(1.5);
+}
+
+/* using scale property transform:scale(1.5,1.5); use for stretch and shrink along horizontal(1st value) and vertical(2nd value) direction  */
+.div6 {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background-color: lightcoral;
+    transform: scale(1.5, 1.5);
+}
+
+/* transform:skewX(50deg); property used for tilt the element across x y and z axis  */
+.div7 {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background-color: lightcoral;
+    transform: skewX(30deg);
+}
+
+div,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+    display: block;
+}
